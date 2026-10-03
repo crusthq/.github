@@ -16,7 +16,7 @@ Crust is the layer around pi. It adds profiles, projects and workspaces on top o
 
 ```mermaid
 flowchart LR
-    client["Client<br/>(Pi Agent Studio or your own)"] -- REST API --> crustd["crustd"]
+    client["Client<br/>(Crust Studio or your own)"] -- REST API --> crustd["crustd"]
     crustd --> pi["pi coding agent"]
     crustd -. optional .-> cloud["Crust Cloud<br/>(fleet)"]
 ```
