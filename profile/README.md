@@ -9,7 +9,7 @@ Crust is the layer around pi. It adds profiles, projects and workspaces on top o
 | Project | Description | License |
 | --- | --- | --- |
 | [**crustd**](https://github.com/crusthq/crustd) | The Crust daemon. Manages profiles, projects and workspaces on top of pi and serves them over a REST API. | Apache 2.0 |
-| [**crust-studio**](https://github.com/crusthq/crust-studio) | Pi Agent Studio, a client for crustd. Code with your agents locally or remotely. | Apache 2.0 |
+| [**crust-studio**](https://github.com/crusthq/crust-studio) | Crust Studio, a client for crustd. Code with your agents locally or remotely. | Apache 2.0 |
 | **Crust Cloud** *(coming soon)* | Connect multiple daemons into a fleet and distribute agents, workers and tasks across them. Hosted at [crusthq.cloud](https://crusthq.cloud), or self-host it yourself. | FSL-1.1-ALv2 |
 
 ## How it fits together
@@ -21,7 +21,7 @@ flowchart LR
     crustd -. optional .-> cloud["Crust Cloud<br/>(fleet)"]
 ```
 
-The API is the contract: Pi Agent Studio is one client, but anyone can build their own.
+The API is the contract: Crust Studio is one client, but anyone can build their own.
 
 ## Licensing
 
